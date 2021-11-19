@@ -49,6 +49,11 @@ namespace API
             app.UseHttpsRedirection();
 
             app.UseRouting();
+            //ordering is important here inside Configure method.
+            app.UseCors(opt =>
+            {
+                opt.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:3000");
+            });
 
             app.UseAuthorization();
 

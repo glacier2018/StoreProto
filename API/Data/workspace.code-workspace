@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": "../../.."
+		},
+		{
+			"path": "../../.."
+		}
+	],
+    "settings": {
+        "editor.formatOnSaveMode": "modifications",
+        "editor.formatOnSave": true,
+        "omnisharp.organizeImportsOnFormat": true,
+        "editor.defaultFormatter": "ms-dotnettools.csharp"
+    },
+    "extensions": {
+        "recommendations": [
+            "rvest.vs-code-prettier-eslint"
+        ]
+    }
+}

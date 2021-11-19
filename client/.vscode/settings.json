@@ -1,0 +1,7 @@
+{
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.includeLanguages": {
+    "typescript": "typescriptreact"
+  },
+  "html-css-class-completion.enableEmmetSupport": true
+}
